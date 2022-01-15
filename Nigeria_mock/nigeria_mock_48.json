@@ -1,0 +1,324 @@
+{
+  "@context": {
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "pav": "http://purl.org/pav/",
+    "schema": "http://schema.org/",
+    "oslc": "http://open-services.net/ns/core#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "rdfs:label": {
+      "@type": "xsd:string"
+    },
+    "schema:isBasedOn": {
+      "@type": "@id"
+    },
+    "schema:name": {
+      "@type": "xsd:string"
+    },
+    "schema:description": {
+      "@type": "xsd:string"
+    },
+    "pav:derivedFrom": {
+      "@type": "@id"
+    },
+    "pav:createdOn": {
+      "@type": "xsd:dateTime"
+    },
+    "pav:createdBy": {
+      "@type": "@id"
+    },
+    "pav:lastUpdatedOn": {
+      "@type": "xsd:dateTime"
+    },
+    "oslc:modifiedBy": {
+      "@type": "@id"
+    },
+    "skos:notation": {
+      "@type": "xsd:string"
+    },
+    "Occupation": "http://www.loc.gov/mads/rdf/v1#occupation",
+    "Diagnosis": "http://www.vodan-totafrica.info/vodana-terms/Diagnosis",
+    "Patient's Address": "http://www.vodan-totafrica.info/vodana-terms/PatientAddress",
+    "S/N": "https://schema.metadatacenter.org/properties/4dffc328-82e9-4150-bea6-9bac1de55307",
+    "SEX": "https://github.com/mariambasajja/vocablary/SEX",
+    "Total OPD Attendance": "http://vocab.vodana.org/opd033/TotalOPDAttendance",
+    "Age": "http://www.vodan-totafrica.info/vodana-terms/Ageinyears",
+    "Nutritional Assessment": "https://schema.metadatacenter.org/properties/3924ea6e-bf9c-4ca8-976f-682e11ed4820",
+    "Presenting Complaint(s)": "https://schema.metadatacenter.org/properties/5fc7e2ae-3d06-426d-9777-b1a94dcbe885",
+    "Patient Service Date": "http://www.vodan-totafrica.info/vodana-terms/PatientServiceDate",
+    "Gender Based Violence (GBV)": "https://schema.metadatacenter.org/properties/82944ea9-30dc-4810-8165-bbebe9c9a606",
+    "Laboratory": "http://vocab.fairdatacollective.org/gdmt/Laboratory",
+    "Hepatitis": "http://vavlab.ee.boun.edu.tr/carera/khaos/lico.owl#hasHepatitisMarkers",
+    "Tuberculosis": "http://vocab.vodana.org/hmis033b/BacteriologicallyTBcasesregistered",
+    "Malaria": "http://vocab.vodana.org/hmis033b/Malariacases",
+    "Outcome of Hospital Visits": "https://schema.metadatacenter.org/properties/bb4ca764-6c68-467b-8ab7-bcd6aa29c9f2",
+    "Name of a Patient/ Client": "http://www.vodan-totafrica.info/vodana-terms/PatientName"
+  },
+  "@type": "http://data.bioontology.org/ontologies/VODANAFACILITIES/classes/https%3A%2F%2Fwww.vodan-totafrica.info%2Fvocs%2FNigeria",
+  "Occupation": {
+    "@value": "medicine"
+  },
+  "Diagnosis": {
+    "@value": "malaria"
+  },
+  "Patient's Address": {
+    "@value": "HZ 88"
+  },
+  "S/N": {
+    "@value": "0"
+  },
+  "SEX": {
+    "@value": "M"
+  },
+  "Total OPD Attendance": {
+    "@value": "New"
+  },
+  "Age": {
+    "@context": {
+      "Age in years": "http://www.vodan-totafrica.info/vodana-terms/Ageinyears",
+      "Age in years1": "http://www.vodan-totafrica.info/vodana-terms/Ageinyears",
+      "Age in years2": "http://www.vodan-totafrica.info/vodana-terms/Ageinyears",
+      "Age in years3": "http://www.vodan-totafrica.info/vodana-terms/Ageinyears",
+      "Age in years4": "http://www.vodan-totafrica.info/vodana-terms/Ageinyears",
+      "Age in years5": "http://www.vodan-totafrica.info/vodana-terms/Ageinyears"
+    },
+    "Age in years": {
+      "@value": "25",
+      "@type": "xsd:decimal"
+    },
+    "Age in years1": {
+      "@value": "4",
+      "@type": "xsd:decimal"
+    },
+    "Age in years2": {
+      "@value": "25",
+      "@type": "xsd:decimal"
+    },
+    "Age in years3": {
+      "@value": "7",
+      "@type": "xsd:decimal"
+    },
+    "Age in years4": {
+      "@value": "14",
+      "@type": "xsd:decimal"
+    },
+    "Age in years5": {
+      "@value": "59",
+      "@type": "xsd:decimal"
+    }
+  },
+  "Nutritional Assessment": {
+    "@context": {
+      "weight": "http://schema.org/weight",
+      "height": "http://schema.org/height",
+      "host BMI": "http://purl.jp/bio/11/msv/hostBMI"
+    },
+    "weight": {
+      "@value": "101",
+      "@type": "xsd:decimal"
+    },
+    "height": {
+      "@value": "124",
+      "@type": "xsd:decimal"
+    },
+    "host BMI": {
+      "@value": "29",
+      "@type": "xsd:decimal"
+    }
+  },
+  "Presenting Complaint(s)": {
+    "@value": "difficulty breathing"
+  },
+  "Patient Service Date": {
+    "@value": " 2021-11-7",
+    "@type": "xsd:date"
+  },
+  "Gender Based Violence (GBV)": {
+    "@context": {
+      "GBV Case Seen": "https://schema.metadatacenter.org/properties/18e626f7-2f84-4673-8b88-952a4f5af685",
+      "Post GBV Care Received": "https://schema.metadatacenter.org/properties/5872fff8-22ea-420c-aa00-24b6ad25a6bb",
+      "GBV Case Referred for further Treatment": "https://schema.metadatacenter.org/properties/5e5d6199-fda8-4161-8b1b-1701fae4d044"
+    },
+    "GBV Case Seen": {
+      "@value": "sexual assault"
+    },
+    "Post GBV Care Received": {
+      "@value": "therapy"
+    },
+    "GBV Case Referred for further Treatment": {
+      "@value": "no"
+    }
+  },
+  "Laboratory": {
+    "@value": "hepatitis"
+  },
+  "Hepatitis": {
+    "@context": {
+      "Hepatitis B Screening": "https://schema.metadatacenter.org/properties/e4ebdd83-d18a-4cdb-838b-8f197cd32fde",
+      "Hepatitis C Screening": "https://schema.metadatacenter.org/properties/26dc8296-37f9-4c93-a82c-31a08647aa90"
+    },
+    "@type": "http://data.bioontology.org/ontologies/NCIT/classes/http%3A%2F%2Fncicb.nci.nih.gov%2Fxml%2Fowl%2FEVS%2FThesaurus.owl%23C3095",
+    "Hepatitis B Screening": {
+      "@context": {
+        "Treated or Referred": "https://schema.metadatacenter.org/properties/2334177d-bdd6-4c36-9caa-7b909acd511e",
+        "Hepatitis B Screening": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C92806",
+        "Hepatitis B Screening Result": "https://schema.metadatacenter.org/properties/b5dafc62-7bfe-453c-99a9-7ce3ce2ab901"
+      },
+      "@type": "http://data.bioontology.org/ontologies/NCIT/classes/http%3A%2F%2Fncicb.nci.nih.gov%2Fxml%2Fowl%2FEVS%2FThesaurus.owl%23C92806",
+      "Treated or Referred": [
+        {
+          "@value": "T"
+        }
+      ],
+      "Hepatitis B Screening": [
+        {
+          "@value": "No"
+        }
+      ],
+      "Hepatitis B Screening Result": [
+        {
+          "@value": "Neg"
+        }
+      ]
+    },
+    "Hepatitis C Screening": {
+      "@context": {
+        "Treated or Referred": "https://schema.metadatacenter.org/properties/2334177d-bdd6-4c36-9caa-7b909acd511e",
+        "Hepatitis C Screening": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C92806",
+        "Hepatitis C Screening Result": "https://schema.metadatacenter.org/properties/b5dafc62-7bfe-453c-99a9-7ce3ce2ab901"
+      },
+      "@type": "http://data.bioontology.org/ontologies/NCIT/classes/http%3A%2F%2Fncicb.nci.nih.gov%2Fxml%2Fowl%2FEVS%2FThesaurus.owl%23C92806",
+      "Treated or Referred": [
+        {
+          "@value": "R"
+        }
+      ],
+      "Hepatitis C Screening": [
+        {
+          "@value": "Yes"
+        }
+      ],
+      "Hepatitis C Screening Result": [
+        {
+          "@value": "Neg"
+        }
+      ]
+    }
+  },
+  "Tuberculosis": {
+    "@context": {
+      "ScreenedforTB": "http://www.mudhc.edu.et/template-vocabulary/ScreenedforTB",
+      "LabTBResult": "https://github.com/mariambasajja/vocablary/LabTBResult",
+      "TB suspect referred": "https://schema.metadatacenter.org/properties/f36d23b7-77da-41b9-9973-cf21df4aaca9"
+    },
+    "@type": [
+      "http://data.bioontology.org/ontologies/CRISP/classes/http%3A%2F%2Fpurl.bioontology.org%2Fontology%2FCSP%2F0368-2498",
+      "http://data.bioontology.org/ontologies/BAO/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FDOID_399"
+    ],
+    "ScreenedforTB": [
+      {
+        "@value": "NO"
+      }
+    ],
+    "LabTBResult": [
+      {
+        "@value": "1"
+      }
+    ],
+    "TB suspect referred": [
+      {
+        "@value": "Not Referred"
+      }
+    ]
+  },
+  "Malaria": {
+    "@context": {
+      "Clinical Diagnosis For Malaria": "https://schema.metadatacenter.org/properties/f111cbec-b80c-4aa2-b437-ad31b9879fe0",
+      "Laboratory Diagnosis for malaria": "https://schema.metadatacenter.org/properties/55f3800f-5ced-41c5-b19e-f3de555f8e9b",
+      "Administration of Artemisin Combination Therapy (ACT)": "https://schema.metadatacenter.org/properties/25542538-9d2d-464e-9380-253f826d44ca",
+      "Antimalaria administration": "https://schema.metadatacenter.org/properties/f4f03024-2471-408d-b46b-2bf8643e253f",
+      "Severe Malaria treatment and referral": "https://schema.metadatacenter.org/properties/6c51fbd6-6a7d-4945-a7ad-f3a1d80ea325"
+    },
+    "Clinical Diagnosis For Malaria": {
+      "@context": {
+        "Age in years": "http://www.vodan-totafrica.info/vodana-terms/Ageinyears"
+      },
+      "@type": "http://data.bioontology.org/ontologies/OBI/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FOBI_0003037",
+      "Age in years": [
+        {
+          "@value": "Pregnant Woman (PW)"
+        }
+      ]
+    },
+    "Laboratory Diagnosis for malaria": {
+      "@context": {
+        "RDT positive cases": "http://vocab.vodana.org/hmis033b/RDTpositivecases",
+        "Microscopy positive cases": "http://vocab.vodana.org/hmis033b/Microscopypositivecases"
+      },
+      "@type": [
+        "http://data.bioontology.org/ontologies/EUPATH/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FEUPATH_0025162",
+        "http://data.bioontology.org/ontologies/EUPATH/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FEUPATH_0000036"
+      ],
+      "RDT positive cases": [
+        {
+          "@value": "Less than 5 years"
+        }
+      ],
+      "Microscopy positive cases": [
+        {
+          "@value": "Pregnant Woman (PW)"
+        }
+      ]
+    },
+    "Administration of Artemisin Combination Therapy (ACT)": {
+      "@context": {
+        "ACT tablets": "http://vocab.vodana.org/hmis033b/ACT"
+      },
+      "ACT tablets": [
+        {
+          "@value": "Pregnant Woman (PW)"
+        }
+      ]
+    },
+    "Antimalaria administration": {
+      "@context": {
+        "Microscopy positive cases treated": "http://vocab.vodana.org/hmis033b/MicroscopyPositiveCasesTreated"
+      },
+      "Microscopy positive cases treated": [
+        {
+          "@value": "Greater than or equal to 5 years"
+        }
+      ]
+    },
+    "Severe Malaria treatment and referral": {
+      "@context": {
+        "Suspected Malaria fever": "http://vocab.vodana.org/hmis033b/SuspectedMalariafever",
+        "Malaria cases": "http://vocab.vodana.org/hmis033b/Malariacases"
+      },
+      "Suspected Malaria fever": [
+        {
+          "@value": "Less than 5 years"
+        }
+      ],
+      "Malaria cases": [
+        {
+          "@value": "IV Artensunate"
+        }
+      ]
+    }
+  },
+  "Outcome of Hospital Visits": {
+    "@context": {
+      "Outcome of Hospital Visits": "http://schema.org/outcome"
+    },
+    "@type": "http://data.bioontology.org/ontologies/MESH/classes/http%3A%2F%2Fpurl.bioontology.org%2Fontology%2FMESH%2FD009819",
+    "Outcome of Hospital Visits": [
+      {
+        "@value": "RO(Referral Out)"
+      }
+    ]
+  },
+  "Name of a Patient/ Client": {
+    "@value": "Edward Cullen"
+  }
+}

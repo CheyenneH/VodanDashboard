@@ -1,0 +1,248 @@
+{
+  "@context": {
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "pav": "http://purl.org/pav/",
+    "schema": "http://schema.org/",
+    "oslc": "http://open-services.net/ns/core#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "rdfs:label": {
+      "@type": "xsd:string"
+    },
+    "schema:isBasedOn": {
+      "@type": "@id"
+    },
+    "schema:name": {
+      "@type": "xsd:string"
+    },
+    "schema:description": {
+      "@type": "xsd:string"
+    },
+    "pav:derivedFrom": {
+      "@type": "@id"
+    },
+    "pav:createdOn": {
+      "@type": "xsd:dateTime"
+    },
+    "pav:createdBy": {
+      "@type": "@id"
+    },
+    "pav:lastUpdatedOn": {
+      "@type": "xsd:dateTime"
+    },
+    "oslc:modifiedBy": {
+      "@type": "@id"
+    },
+    "skos:notation": {
+      "@type": "xsd:string"
+    },
+    "PART 2: HOSPITAL PARTICULARS": "https://schema.metadatacenter.org/properties/93b19454-c114-4ea4-b2ea-958a059b1584",
+    "PART 3: NATURE OF TREATMENT": "https://schema.metadatacenter.org/properties/8f0dfd20-a658-47c1-b038-173e391629bb",
+    "PART 4: TREATMENT AUTHENTIFICATION": "https://schema.metadatacenter.org/properties/6d0bf987-02d2-4802-b90a-9e5b6ca10c6d",
+    "PART 5: PATIENT'S AUTHENTIFICATION": "https://schema.metadatacenter.org/properties/af4b3cfb-111c-44be-b3f8-eb470c4a9540",
+    "Health Facility Name": "https://schema.metadatacenter.org/properties/b822dea1-09d7-4c5a-ba8f-ad0e7843f6a1",
+    "PART 1: PATIENT INFORMATION": "https://schema.metadatacenter.org/properties/477672f5-2ade-4a88-b1ad-ae96fd46d935",
+    "SERVICES": "https://schema.metadatacenter.org/properties/7374132a-4080-4176-abee-c95f79d2d65f",
+    "Sex": "https://schema.metadatacenter.org/properties/36f52a8c-33d2-454f-81a4-ad331d161862"
+  },
+  "PART 2: HOSPITAL PARTICULARS": {
+    "@context": {
+      "Outpatient No": "https://schema.metadatacenter.org/properties/0f9d3d7c-299d-431e-b143-5c91d929c704",
+      "Scheme Type:": "https://schema.metadatacenter.org/properties/cf475f35-f26e-4905-8ec8-2b71a233d584",
+      "Facility Code": "http://vocab.fairdatacollective.org/gdmt/FacilityCode",
+      "Facility Address": "http://www.vodan-totafrica.info/vodana-terms/FacilityAddress"
+    },
+    "Outpatient No": {
+      "@value": "0 ",
+      "@type": "xsd:decimal"
+    },
+    "Scheme Type:": {
+      "@id": "http://www.vodan-totafrica.info/vodana-terms/Acute",
+      "rdfs:label": "Acute"
+    },
+    "Facility Code": {
+      "@value": "0 "
+    },
+    "Facility Address": {}
+  },
+  "PART 3: NATURE OF TREATMENT": {
+    "@context": {
+      "Reason for Visit": "https://schema.metadatacenter.org/properties/c9ecdb27-26a6-4300-8a6b-cb165d4014d3",
+      "Treatment Condition": "https://schema.metadatacenter.org/properties/29ed795e-4cab-4fce-9b81-b5763aca63c4",
+      "Treatment Outcomes": "https://schema.metadatacenter.org/properties/56b5cf7b-d4ea-45d4-a523-9b5eec10b5b7",
+      "Clinician’s/Specialist Names:": "https://schema.metadatacenter.org/properties/549991d7-01bd-462e-bd9d-57dfe594e309",
+      "Registration No:": "https://schema.metadatacenter.org/properties/74dbd722-9127-4eb8-97c8-975df4ab41d8"
+    },
+    "Reason for Visit": {},
+    "Treatment Condition": {},
+    "Treatment Outcomes": {},
+    "Clinician’s/Specialist Names:": {
+      "@value": "John Snow "
+    },
+    "Registration No:": {
+      "@value": "0 "
+    }
+  },
+  "PART 4: TREATMENT AUTHENTIFICATION": {
+    "@context": {
+      "Primary Diagnosis": "https://schema.metadatacenter.org/properties/2d3fdd44-d927-4888-80a1-e5be3a15e080",
+      "Secondary Diagnoses": "https://schema.metadatacenter.org/properties/94b4e41c-4236-47dd-94e3-27dd7546cfd5",
+      "Date of Service": "https://schema.metadatacenter.org/properties/6dac4582-f708-4c75-b835-688558b3b89e",
+      "Patients’ Date of Attendance": "https://schema.metadatacenter.org/properties/9bc57b44-7092-4a61-bae4-87c73c2bf3cc",
+      "Check In Time": "https://schema.metadatacenter.org/properties/14446ad2-42ea-4515-854b-7c5939e5893a",
+      "Check Out Time": "https://schema.metadatacenter.org/properties/8d760fff-8986-407f-8da3-fcd616877dd9",
+      "ICD 10 CODE": "https://schema.metadatacenter.org/properties/136b5737-0731-42bc-8c13-c60cc0b26d4c",
+      "Procedure Code": "https://schema.metadatacenter.org/properties/1a51cf75-f83e-481d-8724-0aa5398e377a"
+    },
+    "Primary Diagnosis": {
+      "@value": "pregnancy"
+    },
+    "Secondary Diagnoses": {
+      "@value": "tuberculosis"
+    },
+    "Date of Service": {
+      "@value": " 2021-11-3",
+      "@type": "xsd:date"
+    },
+    "Patients’ Date of Attendance": {
+      "@value": " 2021-11-3",
+      "@type": "xsd:dateTime"
+    },
+    "Check In Time": {
+      "@value": "9:00:00:34-08:00",
+      "@type": "xsd:time"
+    },
+    "Check Out Time": {
+      "@value": "15:00:34:40-08:00",
+      "@type": "xsd:time"
+    },
+    "ICD 10 CODE": {
+      "@value": "0 "
+    },
+    "Procedure Code": {
+      "@value": "0"
+    }
+  },
+  "PART 5: PATIENT'S AUTHENTIFICATION": {
+    "@context": {
+      "Date": "https://schema.metadatacenter.org/properties/ef624ce2-9b4b-490b-b282-f9ff01a88c05",
+      "Names": "https://schema.metadatacenter.org/properties/156803af-8103-4255-8d2c-22f8da33c2bd"
+    },
+    "Date": {
+      "@value": " 2021-11-5",
+      "@type": "xsd:date"
+    },
+    "Names": {
+      "@value": "Edward Cullen "
+    }
+  },
+  "Health Facility Name": {
+    "@id": "http://vocab.vodana.org/vmfl/VDET0013",
+    "rdfs:label": "Akaki Kela Health Center"
+  },
+  "PART 1: PATIENT INFORMATION": {
+    "@context": {
+      "Relationship:": "https://schema.metadatacenter.org/properties/ba39c742-a3d2-4508-a268-7a85cc81fe95",
+      "Date of Birth:": "https://schema.metadatacenter.org/properties/275d100b-5b2b-417d-9b23-c94e92362945",
+      "Name:": "https://schema.metadatacenter.org/properties/1f57092a-e81f-4b7d-9609-8aecaf722955",
+      "Date": "https://schema.metadatacenter.org/properties/ef94daa3-cec9-4b14-82f1-1ce62d42a528",
+      "Surname": "http://vocab.fairdatacollective.org/gdmt/Surname",
+      "Other Names:": "http://vocab.fairdatacollective.org/gdmt/OtherNames",
+      "MemberNHIFNo": "http://vocab.fairdatacollective.org/gdmt/MemberNHIFNo",
+      "Member's ID No:": "https://schema.metadatacenter.org/properties/6200a0c1-609b-4009-910b-b7f348912ffb",
+      "Gender": "https://schema.metadatacenter.org/properties/44e86d5b-279e-431f-bd65-58b43b368ef2"
+    },
+    "Relationship:": {},
+    "Date of Birth:": {
+      "@value": "11-24-1996",
+      "@type": "xsd:date"
+    },
+    "Name:": {
+      "@value": "Edward Cullen"
+    },
+    "Date": {
+      "@value": "2021-11-17",
+      "@type": "xsd:dateTime"
+    },
+    "Surname": {
+      "@value": "Cullen "
+    },
+    "Other Names:": {
+      "@value": "Edward"
+    },
+    "MemberNHIFNo": {
+      "@value": "0 "
+    },
+    "Member's ID No:": {
+      "@value": "0 ",
+      "@type": "xsd:decimal"
+    },
+    "Gender": {}
+  },
+  "SERVICES": {
+    "@context": {
+      "Consultation": "https://schema.metadatacenter.org/properties/a4303656-a40c-4885-ad5b-7c714cc8ff4e",
+      "Laboratory": "https://schema.metadatacenter.org/properties/929de71d-3cf9-4bcc-bd99-ec7b2ad2cf32",
+      "Pharmacy": "https://schema.metadatacenter.org/properties/4b49355e-d6e4-424b-ae92-cbca69232480",
+      "Imaging": "https://schema.metadatacenter.org/properties/7591b834-b9c8-4e04-85f7-20d28c5a612d",
+      "Surgery": "https://schema.metadatacenter.org/properties/087eaf04-0f64-4189-9a8a-eda3c0500371",
+      "Outpatient procedures": "https://schema.metadatacenter.org/properties/4905f5e1-dd12-407f-86c5-38daae2fb8ca",
+      "TOTAL COST": "https://schema.metadatacenter.org/properties/44d62866-ce7d-4187-a172-84c64f84ac24"
+    },
+    "Consultation": [
+      {
+        "@value": "healthy"
+      },
+      {
+        "@value":null
+      }
+    ],
+    "Laboratory": [
+      {
+        "@value": "XRay"
+      },
+      {
+        "@value":null 
+      }
+    ],
+    "Pharmacy": [
+      {
+        "@value": "Apotheek "
+      },
+      {
+        "@value":null 
+      }
+    ],
+    "Imaging": [
+      {
+        "@value": " CATScan "
+      },
+      {
+        "@value":"neurosurgery"
+      }
+    ],
+    "Surgery": [
+      {
+        "@value":null
+      },
+      {
+        "@value": " psychologist"
+      }
+    ],
+    "Outpatient procedures": [
+      {
+        "@value": "null "
+      },
+      {
+        "@value": 13
+      }
+    ],
+    "TOTAL COST": {
+      "@value": "M",
+      "@type": "xsd:decimal"
+    }
+  },
+  "Sex": {
+    "@value": ""
+  }
+}
