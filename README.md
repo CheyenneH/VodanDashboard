@@ -20,3 +20,7 @@ If you are not sure how to work with GitHub repositories check out this source: 
 * clone this repository to your computer and navigate in the command promt to the cloned repository
 * enter the following command "python dashboard.py"
 * Got to the local host webpage on your PC to view the dashboard, this is desplayed in the command line as well and is often "http://127.0.0.1:8050/"
+
+
+## Known bugs
+Because late in our project we got assigned an additional file in which the mock data generation introduced issues with the dates, we are currently unable to switch between dates. We were unable to fix this issue during the span of this project. 
